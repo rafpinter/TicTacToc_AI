@@ -196,7 +196,7 @@ def minimax(board):
         for action in actions(board):
             possibo[action] = min_value(result(board, action))
         return min(possibo, key=possibo.get)
-
+ 
 def max_value(board):
     
     if terminal(board):
