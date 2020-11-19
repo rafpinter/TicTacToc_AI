@@ -25,7 +25,7 @@ def isfirstmove(board):
         for j in range(3):
             if board[i][j] != EMPTY:
                 return False
-    
+
     return True
 
 
